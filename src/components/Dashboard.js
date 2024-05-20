@@ -27,6 +27,7 @@ const Dashboard = () => {
                     value={selectEmployee}
                     onChange={handleSelectEmployee}
                     sx={{ width: 300 }}
+                    clearIcon={null}
                     renderInput={(params) => <TextField {...params} label="Employee" />}
                     />
             </div>
